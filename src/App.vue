@@ -1,5 +1,5 @@
 <template>
-  <main class="p-layout">
+  <main>
     <Calculator />
   </main>
 </template>
@@ -8,10 +8,4 @@
 import Calculator from './components/Calculator.vue';
 </script>
 
-<style scoped>
-main {
-  display: flex;
-  flex: 1 1 auto;
-  font-size: 1.3rem;
-}
-</style>
+<style scoped></style>
